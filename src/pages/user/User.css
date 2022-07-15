@@ -1,0 +1,187 @@
+.user-menu a svg {
+    position: relative;
+    left: -10px;
+    top: 0px;
+  }
+  
+  .user-menu .ant-tabs-ink-bar {
+    display: none;
+  }
+  
+  .user-menu .ant-tabs-tab-btn svg {
+    color: white !important;
+  }
+  
+  .user-menu  .ant-tabs-tab.ant-tabs-tab-active .ant-tabs-tab-btn svg {
+    color: #EF771E !important;
+    fill: transparent !important;
+  }
+  
+  .user-menu .ant-tabs-tab.ant-tabs-tab-active .ant-tabs-tab-btn {
+    color: rgba(251, 109, 58, 1) !important;
+    
+  }
+  
+  .user-menu .ant-tabs-tab.ant-tabs-tab-active .ant-tabs-tab-btn .svg-text {
+     color: #FFFFFF;
+  }
+  
+  .user-menu .ant-tabs-tab + .ant-tabs-tab {
+    margin: 0px !important;
+  }
+  
+  /************************************************************* User Posted Jobs ******************************************************/
+  .posted-jobs a {
+    color: #FB6D3A;
+    font-weight: 500;
+  }
+  
+  .posted-jobs .job-description {
+  overflow: hidden;
+   overflow-x: hidden;
+    text-overflow: ellipsis; 
+    display: -webkit-box; 
+    -webkit-line-clamp: 4; 
+    -webkit-box-orient: vertical;
+  }
+  .submit-proposal {
+    background: #FB6D3A;
+    color: white !important;
+  }
+  
+  .posted-jobs .jobs-filters h4 {
+    margin-bottom: 47px;
+  }
+  .posted-jobs .jobs-filters .links {
+    margin-bottom: 47px;
+  }
+  .posted-jobs .jobs-filters .links a {
+    color: #00334E;
+    font-weight: 600 !important;
+    padding: 4px;
+    padding-left: 23px;
+  }
+  
+  .posted-jobs .jobs-filters .links a:focus {
+     border-left: 3px solid #FB6D3A;
+     padding-right: 15px;
+  }
+  
+  .posted-jobs .ant-input-search {
+   width: 100% !important;
+  }
+  
+  .posted-jobs .jobs-list {
+    border: 1px solid #C8C8C8;
+    box-sizing: border-box;
+    border-radius: 4px;
+    padding: 19px;
+    margin-top: 23px;
+  }
+  
+  .posted-jobs h4 {
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 24px;
+  text-transform: capitalize;
+  color: #000000;
+  }
+  .posted-jobs h5 {
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 24px;
+  text-transform: capitalize;
+  color: #000000;
+  }
+  .posted-jobs p {
+  color: #818181;
+  }
+  
+  .posted-jobs .job-btns button {
+  background: #EBEBEB;
+  color: rgba(129, 129, 129, 1) !important;
+  margin-top: 10px;
+  margin-bottom: 15px;
+  margin-right: 2px;
+  }
+  
+  .posted-jobs .job-footer span {
+   color: #ef771e;
+   font-size: 14px;
+   margin-right: 4px;
+  }
+  
+  
+  .posted-jobs .profile-info .img-profile span {
+    margin-left: 10px;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+    text-transform: capitalize;
+    color: #000000;
+  }
+  
+  .posted-jobs .posted-jobsiew-profile {
+   margin-top: 10px;
+  }
+  .posted-jobs .view-profile span {
+   margin-left: 8px;
+   font-weight: 600;
+    font-size: 14px;
+    line-height: 17px;
+    color: #FB6D3A;
+  }
+  
+  .posted-jobs .availability .anticon, .posted-jobs .visiblity .anticon{
+    color: #7B7B7B !important;
+  }
+  
+  
+  
+  
+  /*********************************************************** Proposals Menu **********************************************************/
+  .all-proposals-menu .ant-tabs-ink-bar {
+    display: block;
+    left: 0;
+    height: 4px !important;
+    background: #ef771e !important;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 22px;
+  }
+  
+  .user-menu .ant-tabs-tab-btn svg {
+    color: white !important;
+  }
+  
+  .user-menu  .ant-tabs-tab.ant-tabs-tab-active .ant-tabs-tab-btn svg {
+    color: #EF771E !important;
+    fill: transparent !important;
+  }
+  
+  .user-menu .ant-tabs-tab.ant-tabs-tab-active .ant-tabs-tab-btn {
+    color: rgba(251, 109, 58, 1) !important;
+    
+  }
+  
+  .user-menu .ant-tabs-tab.ant-tabs-tab-active .ant-tabs-tab-btn .svg-text {
+     color: #FFFFFF;
+  }
+  
+  .user-menu .all-proposals-menu .ant-tabs-tab + .ant-tabs-tab {
+    margin: 0 0 0 32px !important;
+  }
+  
+  
+  
+  /********************************************************** All Proposals *********************************************************/
+  .all-proposals .ant-input-wrapper input {
+    padding: 8px;
+  }
+  .all-proposals .ant-input-wrapper .ant-input-group-addon button {
+    height: 40px !important;
+    width: 60px;
+    background: #ef771e;
+    color: #FFFFFF !important;
+    /* padding: 8px; */
+  }

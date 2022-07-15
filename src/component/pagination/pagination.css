@@ -1,0 +1,15 @@
+.pagination {
+  width: 80%;
+  max-width: 800px;
+  flex-wrap: wrap;
+  margin-top: 15px !important;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.page-item {
+  margin-right: 10px;
+  margin-bottom: 10px;
+}

@@ -1,0 +1,149 @@
+/*********************************************************** Profile Page **********************************************************/
+.ant-avatar {
+  width: 62px !important;
+  height: 62px !important;
+}
+.ant-comment-avatar img {
+  width: 62px !important;
+  height: 62px !important;
+  border-radius: 0 !important;
+}
+
+.profile {
+  font-family: "Poppins", sans-serif !important;
+}
+.profile .anticon {
+  vertical-align: text-top;
+}
+.profile .skill-btns button {
+  background: #ebebeb;
+  color: rgba(129, 129, 129, 1) !important;
+  /* margin-top: 10px; */
+  margin-bottom: 15px;
+  margin-right: 2px;
+}
+
+.profile .detail-info a {
+  color: #ef771e;
+  font-weight: 500;
+}
+
+.profile .ant-comment-content-author {
+  height: 23px;
+}
+
+.profile .profile-info .profiles-links a {
+  padding-left: 28px !important;
+  color: rgba(56, 56, 56, 1);
+}
+
+.profile .profile-info .profiles-links a:focus {
+  padding-left: 23px;
+  border-left: 3px solid #ef771e;
+}
+
+.para {
+  color: #818181;
+}
+
+.profile .anticon {
+  color: #818181;
+}
+
+.profile .grad-link {
+  color: #ef771e;
+}
+
+/********************************************************* Edit Profile *************************************************************/
+.edit-profile h4 {
+  color: white;
+}
+
+.edit-profile form {
+  display: flex;
+  justify-content: center;
+}
+
+.edit-profile-form {
+  width: 60%;
+}
+.edit-profile .edit-profile-img {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-right: 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.img-wrapper {
+  height: 300px;
+  width: 300px;
+  border: 2px solid grey;
+  border-radius: 50%;
+  background: #dfdfdf;
+  display: grid;
+  place-items: center;
+}
+
+@media (max-width: 991.98px) {
+  .edit-profile form {
+    flex-direction: column;
+  }
+  .edit-profile-form {
+    width: auto;
+  }
+  .edit-profile .edit-profile-img {
+    margin: auto;
+  }
+}
+.edit-profile .floating-label-group,
+.portfolio-form .floating-label-group {
+  margin-bottom: 19px;
+}
+
+.edit-profile .floating-label-group label,
+.portfolio-form .floating-label-group {
+  margin-bottom: 6px;
+  font-size: 19px;
+}
+
+.edit-profile .ant-input-sm,
+.portfolio-form .ant-input-sm {
+  border: 1px solid #00334e;
+  padding: 10px;
+  border-radius: 4px;
+}
+
+.edit-profile .ant-input-affix-wrapper,
+.portfolio-form .ant-input-affix-wrapper {
+  border: 1px solid #00334e;
+  padding: 10px;
+  border-radius: 4px;
+}
+
+.edit-profile
+  .ant-select-single:not(.ant-select-customize-input)
+  .ant-select-selector {
+  height: 45px !important;
+  padding-top: 8px !important;
+  border: 1px solid #00334e !important;
+}
+
+.edit-profile
+  .ant-select:not(.ant-select-customize-input)
+  .ant-select-selector {
+  position: relative;
+  min-height: 45px !important;
+  padding-top: 8px !important;
+  background-color: #fff;
+  border: 1px solid #00334e !important;
+}
+
+.edit-profile .education .ant-input {
+  margin-bottom: 10px;
+}
+.edit-profile .anticon-plus-circle {
+  font-size: 23px;
+  margin-left: 15px;
+  cursor: pointer;
+}

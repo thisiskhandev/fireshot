@@ -1,0 +1,128 @@
+.contact {
+  text-align: center;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+.contact-form-wrapper {
+  width: 100%;
+  display: grid;
+  place-items: center;
+}
+.contact-footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.contact-inner {
+  text-align: left;
+  margin-top: 50px;
+  margin-left: 50%;
+  transform: translateX(-50%);
+}
+
+@media (max-width: 768px) {
+  .contact-inner {
+    text-align: left;
+    margin-left: auto;
+    transform: none;
+    padding: 20px;
+  }
+}
+@media (max-width: 480px) {
+  .contact-footer {
+    flex-wrap: wrap;
+  }
+}
+
+.contact-inner
+  .ant-select-single:not(.ant-select-customize-input)
+  .ant-select-selector {
+  height: 45px !important;
+  max-width: 588px !important;
+  border: 1px solid #00334e;
+}
+
+.contact-inner .ant-input {
+  max-width: 588px !important;
+}
+
+.contact-us .contact-inner {
+  background-color: #ffffff;
+  padding-right: 10px;
+  width: 200px;
+}
+
+.contact .anticon {
+  border: 1px solid #ffffff;
+  font-size: 23px;
+  padding: 0px;
+  border-radius: 12px;
+}
+
+.contact-inner .ant-input-sm {
+  border: 1px solid #00334e;
+  padding: 10px;
+}
+
+.contact-inner .ant-input-affix-wrapper {
+  border: 1px solid #00334e;
+  padding: 10px;
+}
+
+@media (min-width: 1400px) {
+  .slick-responsive-auto.single.primary .slick-prev {
+    left: 83%;
+  }
+}
+@media (min-width: 996px) {
+  .contact-inner {
+    padding-top: 70px;
+  }
+}
+.slick-responsive-auto.single.primary .slick-next,
+.slick-responsive-auto.single.primary .slick-prev {
+  display: block;
+  z-index: 20;
+  width: 3rem;
+  height: 3rem;
+  top: 80%;
+  transition: 0.2s ease;
+}
+.slick-next:focus,
+.slick-next:hover,
+.slick-prev:focus,
+.slick-prev:hover {
+  color: transparent;
+  outline: 0;
+  background: 0 0;
+}
+[type="button"]:not(:disabled),
+[type="reset"]:not(:disabled),
+[type="submit"]:not(:disabled),
+button:not(:disabled) {
+  cursor: pointer;
+}
+.slick-prev {
+  left: -25px;
+}
+.slick-next,
+.slick-prev {
+  font-size: 0;
+  line-height: 0;
+  position: absolute;
+  top: 50%;
+  display: block;
+  width: 20px;
+  height: 20px;
+  padding: 0;
+  -webkit-transform: translate(0, -50%);
+  -ms-transform: translate(0, -50%);
+  transform: translate(0, -50%);
+  cursor: pointer;
+  color: transparent;
+  border: none;
+  outline: 0;
+  background: 0 0;
+}

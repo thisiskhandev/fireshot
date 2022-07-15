@@ -1,0 +1,254 @@
+.anticon {
+  vertical-align: text-bottom !important;
+  cursor: pointer;
+}
+.container {
+  padding-top: 3.5rem;
+  padding-bottom: 3.5rem;
+}
+
+.container-fluid {
+  padding-top: 3.5rem;
+  padding-bottom: 3.5rem;
+}
+
+input,
+.ant-input {
+  border: 1px solid #c8c8c8;
+  box-sizing: border-box;
+  border-radius: 4px;
+}
+
+body p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin-bottom: 0px !important;
+  margin-top: 0px !important;
+}
+
+/*********************************************************************** Support Page *************************************************************/
+.support .ant-collapse {
+  border: none;
+  background-color: #ffffff;
+  border-bottom: none;
+}
+
+.support .ant-collapse-header {
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 34px;
+  letter-spacing: 0px;
+  text-align: justified;
+}
+
+.support .ant-collapse-item-active .ant-collapse-header {
+  color: #ef771e !important;
+}
+
+.support .ant-collapse-content > .ant-collapse-content-box {
+  padding-top: 0px;
+}
+
+.support .ant-collapse-content {
+  border-top: none;
+}
+
+.support .ant-collapse > .ant-collapse-item {
+  border-bottom: none;
+}
+
+.support .anticon {
+  float: right;
+  font-size: 17px !important;
+  padding-right: 100px;
+  margin-top: 8px;
+}
+
+.support a:active {
+  background-color: #ef771e;
+}
+
+.support a:focus {
+  color: #ef771e !important;
+  font-weight: 700 !important;
+}
+
+.ant-menu:not(.ant-menu-horizontal) .ant-menu-item-selected {
+  background-color: #ffffff !important;
+}
+
+/**********************************************************************About****************************************************************/
+@media (max-width: 577px) {
+  .about {
+    text-align: center !important;
+  }
+  .about .about-masterfix {
+    justify-content: center;
+    align-items: center;
+  }
+  .about .paragraphs {
+    width: 80% !important;
+    margin-left: 60px !important;
+  }
+  .about .card-desc {
+    margin-top: 0px !important;
+    width: 160px !important;
+    margin-left: 0px !important;
+    margin-bottom: 120px !important;
+    margin-right: 60px !important;
+    font-size: 23px !important;
+  }
+
+  .paraLast {
+    text-align: center !important;
+    margin-left: 60px;
+    margin-right: 60px;
+  }
+
+  .contact #paragraph {
+    width: 300px !important;
+  }
+
+  .contact iframe {
+    width: 80% !important;
+    height: 80% !important;
+    margin-left: 40px;
+  }
+
+  .contact form {
+    margin-right: 60px !important;
+    margin-left: 60px !important;
+  }
+
+  .contact .love-to-hear {
+    text-align: center !important;
+    margin-top: 40px;
+  }
+  .contact .reach-us {
+    margin-left: 0px !important;
+    text-align: center !important;
+    margin-top: 40px;
+  }
+
+  #information {
+    margin-left: 0px !important;
+    margin-top: 100px !important;
+    margin-left: 60px !important;
+  }
+
+  .support .para {
+    width: 300px !important;
+  }
+
+  .support .img {
+    /* width: 300px !important; */
+    margin-left: 0px !important;
+    padding-left: 40px !important;
+    padding-right: 40px !important;
+  }
+  .support .faq {
+    font-size: 28px !important;
+  }
+
+  .main-login .img {
+    height: 600px !important;
+    width: 300px !important;
+  }
+
+  /* .main-login .login-right img {
+    width: 73px !important;
+  }
+  .main-login .login-right {
+    height: 600px !important;
+  } */
+  .main-login .welcome {
+    font-size: 19px !important;
+    margin-top: 0px !important;
+    margin-bottom: 10px !important;
+  }
+  .main-login .floating-label-group {
+    margin-bottom: 10px !important;
+  }
+  .main-login .floating-label-group {
+    margin-bottom: 10px !important;
+  }
+  .main-login .login-left {
+    display: none !important;
+  }
+  .ant-row {
+    flex-wrap: wrap;
+  }
+  .main-login .ant-col-12 {
+    padding-top: 20px !important;
+    flex: 4 0 !important;
+  }
+}
+
+@media (max-width: 400px) {
+  .about .d-flex img {
+    width: 200px !important;
+  }
+  .about .card-desc {
+    margin-top: 0px !important;
+    width: 150px !important;
+    margin-left: 0px !important;
+    margin-bottom: 120px !important;
+    margin-right: 60px !important;
+    font-size: 19px !important;
+    /* font-size: 12px !important; */
+  }
+  .about .paragraphs {
+    width: 60% !important;
+    margin-left: 88px !important;
+  }
+
+  .paraLast {
+    text-align: center !important;
+  }
+
+  .last img {
+    width: 240px !important;
+    height: 200px !important;
+  }
+}
+
+@media (max-width: 623px) {
+  .boxes {
+    margin-left: 0px !important;
+  }
+
+  .boxes p {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 10px;
+    line-height: 22px;
+    color: #ffffff;
+    margin-bottom: 0px;
+    margin-top: 16px;
+    margin-left: 24px;
+  }
+
+  .boxes h6 {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 34px;
+    color: #ffffff;
+    margin-left: 24px;
+  }
+}
+
+.contact .ant-select-selection-placeholder {
+  padding-top: 8px !important;
+}
+
+@media (min-width: 991.98px) {
+  .footbar.footbar-primary {
+    padding-left: 200px !important;
+    padding-right: 200px !important;
+  }
+}

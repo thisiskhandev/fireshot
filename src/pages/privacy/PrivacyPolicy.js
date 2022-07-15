@@ -28,16 +28,16 @@ export const PrivacyPolicy = () => {
               className="mb-3"
               style={{ fontSize: "36px", fontWeight: "700" }}
             >
-              "FireShot" privatumo politika
+              "MasterFix" privatumo politika
             </h1>
           </p>
           <p
             className="paragraphs para1"
             style={{ fontSize: "14px", fontWeight: "400" }}
           >
-            "FireShot" svetainėje, pasiekiamoje iš www.fire-shot.com, vienas iš
+            "MasterFix" svetainėje, pasiekiamoje iš www.masterfix.lt, vienas iš
             pagrindinių mūsų prioritetų yra lankytojų privatumas. Šiame
-            privatumo politikos dokumente pateikiami "FireShot" renkamos ir
+            privatumo politikos dokumente pateikiami "MasterFix" renkamos ir
             įrašomos informacijos tipai ir kaip ją naudojame.
           </p>
           <p>
@@ -47,7 +47,7 @@ export const PrivacyPolicy = () => {
           <p>
             This Privacy Policy applies only to our online activities and is
             valid for visitors to our website with regards to the information
-            that they shared and/or collect in FireShot. This policy is not
+            that they shared and/or collect in MasterFix. This policy is not
             applicable to any information collected offline or via channels
             other than this website.
           </p>
@@ -94,7 +94,7 @@ export const PrivacyPolicy = () => {
         </p>
         <h2 className="heading">Žurnalo failai</h2>
         <p>
-          "FireShot" laikosi standartinės žurnalo failų naudojimo procedūros.
+          "MasterFix" laikosi standartinės žurnalo failų naudojimo procedūros.
           Šie failai registruoja lankytojus, kai jie lankosi svetainėse. Tai
           daro visos prieglobos paslaugas teikiančios bendrovės ir tai yra
           prieglobos paslaugų analizės dalis. Žurnalo failuose renkama
@@ -109,7 +109,7 @@ export const PrivacyPolicy = () => {
         </p>
         <h2 className="heading">Slapukai ir žiniatinklio švyturiai</h2>
         <p>
-          Kaip ir bet kuri kita svetainė, "FireShot" naudoja slapukus. Šie
+          Kaip ir bet kuri kita svetainė, "MasterFix" naudoja slapukus. Šie
           slapukai naudojami informacijai, įskaitant lankytojų nuostatas ir
           svetainės puslapius, kuriuos lankytojas aplankė. Ši informacija
           naudojama siekiant optimizuoti naudotojų patirtį, pritaikant mūsų
@@ -136,25 +136,26 @@ export const PrivacyPolicy = () => {
         <p>https://policies.google.com/technologies/ads</p>
         <h2 className="heading">Reklamos partneriai Privatumo politika</h2>
         <p>
-          Šiame sąraše galite rasti kiekvieno "FireShot" reklamos partnerio
+          Šiame sąraše galite rasti kiekvieno "MasterFix" reklamos partnerio
           privatumo politiką.
         </p>
         <p>
           Trečiųjų šalių skelbimų serveriai arba skelbimų tinklai naudoja tokias
           technologijas kaip slapukai, JavaScript arba žiniatinklio švyturiai,
           kurie yra naudojami atitinkamuose jų skelbimuose ir nuorodose,
-          rodomose "FireShot", kurie yra siunčiami tiesiai į naudotojų naršyklę.
-          Tokiu atveju jie automatiškai gauna jūsų IP adresą. Šios technologijos
-          naudojamos jų reklamos kampanijų veiksmingumui matuoti ir (arba)
-          reklamos turiniui, kurį matote lankomose svetainėse, pritaikyti.
+          rodomose "MasterFix", kurie yra siunčiami tiesiai į naudotojų
+          naršyklę. Tokiu atveju jie automatiškai gauna jūsų IP adresą. Šios
+          technologijos naudojamos jų reklamos kampanijų veiksmingumui matuoti
+          ir (arba) reklamos turiniui, kurį matote lankomose svetainėse,
+          pritaikyti.
         </p>
         <p>
-          Note that FireShot has no access to or control over these cookies that
-          are used by third-party advertisers.
+          Note that MasterFix has no access to or control over these cookies
+          that are used by third-party advertisers.
         </p>
         <h2 className="heading">Trečiųjų šalių privatumo politika</h2>
         <p>
-          FireShot's Privacy Policy does not apply to other advertisers or
+          MasterFix's Privacy Policy does not apply to other advertisers or
           websites. Thus, we are advising you to consult the respective Privacy
           Policies of these third-party ad servers for more detailed
           information. It may include their practices and instructions about how
@@ -229,7 +230,7 @@ export const PrivacyPolicy = () => {
           stebėti bei vadovauti jų veiklai internete.
         </p>
         <p>
-          "FireShot" sąmoningai nerenka jokios asmenį identifikuojančios
+          "MasterFix" sąmoningai nerenka jokios asmenį identifikuojančios
           informacijos iš jaunesnių nei 13 metų amžiaus vaikų. Jei manote, kad
           jūsų vaikas pateikė tokią informaciją mūsų svetainėje, primygtinai
           raginame nedelsdami susisiekti su mumis ir mes padarysime viską, ką

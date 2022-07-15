@@ -1,29 +1,30 @@
-import React from 'react';
-import { Route, Switch } from 'react-router-dom';
+import React from "react";
+import { Route, Switch } from "react-router-dom";
 
-import { Home } from './pages/home';
-import { Login } from './pages/auth/Login';
-import { Signup } from './pages/auth/Signup';
-import { Builder } from './pages/builders';
-import { AboutUs } from './pages/about/AboutUs';
-import { ContactUs } from './pages/contact/ContactUs';
-import { Support } from './pages/Support';
-import { Users } from './pages/admin/Users';
-import { DC } from './pages/404';
-import { Profile } from './pages/profile/Profile';
-import { FindJobs } from './pages/jobs/FindJobs';
-import { EditProfile } from './pages/profile/EditProfile';
-import { SubmitProposals } from './pages/jobs/SubmitProposals';
-import { JobDetails } from './pages/jobs/JobDetails';
-import { PostedJobs } from './pages/user/PostedJobs';
-import { NavMenu } from './pages/user/NavMenu';
-import { AdminSideBar } from './pages/admin/AdminSideBar';
-import { ForgotPassword } from './pages/auth/ForgotPassword';
-import { ResetPassword } from './pages/auth/ResetPassword';
+import { Home } from "./pages/home";
+import { Login } from "./pages/auth/Login";
+import { Signup } from "./pages/auth/Signup";
+import { Builder } from "./pages/builders";
+import { AboutUs } from "./pages/about/AboutUs";
+import { ContactUs } from "./pages/contact/ContactUs";
+import { Support } from "./pages/Support";
+import { Users } from "./pages/admin/Users";
+import { DC } from "./pages/404";
+import { Profile } from "./pages/profile/Profile";
+import { FindJobs } from "./pages/jobs/FindJobs";
+import { EditProfile } from "./pages/profile/EditProfile";
+import { SubmitProposals } from "./pages/jobs/SubmitProposals";
+import { JobDetails } from "./pages/jobs/JobDetails";
+import { PostedJobs } from "./pages/user/PostedJobs";
+import { NavMenu } from "./pages/user/NavMenu";
+import { AdminSideBar } from "./pages/admin/AdminSideBar";
+import { ForgotPassword } from "./pages/auth/ForgotPassword";
+import { ResetPassword } from "./pages/auth/ResetPassword";
+import { PrivacyPolicy } from "./pages/privacy/PrivacyPolicy";
 
-import AdminRoute from './component/routes/AdminRoute';
-import WithAuth from './component/routes/WithAuth';
-import WithNoAuth from './component/routes/WithNoAuth';
+import AdminRoute from "./component/routes/AdminRoute";
+import WithAuth from "./component/routes/WithAuth";
+import WithNoAuth from "./component/routes/WithNoAuth";
 
 const Routes = () => (
   <Switch>
@@ -42,6 +43,7 @@ const Routes = () => (
     <WithNoAuth exact path="/forgot-password" component={ForgotPassword} />
     <WithNoAuth exact path="/reset/:token" component={ResetPassword} />
     <Route exact path="/about-us" component={AboutUs} />
+    <Route exact path="/privacy-policy" component={PrivacyPolicy} />
     <Route exact path="/contact-us" component={ContactUs} />
     <Route exact path="/support" component={Support} />
     <AdminRoute exact path="/admin/users" component={Users} />

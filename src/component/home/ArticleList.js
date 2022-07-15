@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 
 export const ArticleList = () => {
   return (
-    <div className="container">
+    <div className="container d-none">
       <div className="article-list-header">
         <div className="header-text">
           <div className="title">

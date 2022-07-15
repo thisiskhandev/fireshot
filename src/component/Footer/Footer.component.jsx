@@ -1,16 +1,16 @@
-import React, { useEffect, useState } from 'react';
-import { Link } from 'react-router-dom';
+import React, { useEffect, useState } from "react";
+import { Link } from "react-router-dom";
 
-import axios from 'src/config/axios.config';
+import axios from "src/config/axios.config";
 
-import { CreateJobForm } from '../forms/CreateJobForm';
-import { Error } from '../messages/messages';
+import { CreateJobForm } from "../forms/CreateJobForm";
+import { Error } from "../messages/messages";
 
-import container from './Footer.container';
+import container from "./Footer.container";
 
 const Footer = (props) => {
   const {
-    auth: { isAuthenticated }
+    auth: { isAuthenticated },
   } = props;
 
   const [subCategories, setSubCategories] = useState([]);
@@ -69,13 +69,16 @@ const Footer = (props) => {
                   </div>
                   <div className="footbar-link">
                     <div className="link">
-                      <a className="foot-link secondary" href="/">
-                        Terms & conditions Privacy
-                      </a>
+                      <Link
+                        className="foot-link secondary"
+                        to="/privacy-policy"
+                      >
+                        Privatumo politika
+                      </Link>
                     </div>
                   </div>
                 </div>
-                <div className="col-footbar-inner col-6 col-md-4 col-lg-4">
+                <div className="col-footbar-inner col-6">
                   <div className="footbar-text">
                     <div className="title">
                       <h3>Namų savininkams</h3>
@@ -109,7 +112,7 @@ const Footer = (props) => {
                     </div>
                   </div>
                 </div>
-                <div className="col-footbar-inner col-6 col-md-4 col-lg-4">
+                <div className="col-footbar-inner col-6 d-none">
                   <div className="footbar-text">
                     <div className="title">
                       <h3>Pagalbos centras</h3>
